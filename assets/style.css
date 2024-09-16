@@ -232,7 +232,6 @@ main {
 
     /* #endregion card */
 
-
     /* #region lista */
     ul {
         padding: 1rem 0;
@@ -292,6 +291,10 @@ main {
         .img {
            width: 70%;
            margin: auto;
+        }
+
+        p {
+            line-height: 1.5rem;
         }
     }
 
