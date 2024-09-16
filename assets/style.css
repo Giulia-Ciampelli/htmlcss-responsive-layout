@@ -132,13 +132,6 @@ ul {
 
 /* #endregion common */
 
-/* #region debug */
-.debug * {
-    border: 1px dashed black;
-}
-
-/* #endregion debug */
-
 /* #region header */
 header {
     font-family: "Nerko One", cursive;
@@ -215,6 +208,8 @@ main {
 
     /* #endregion card */
 
+
+    /* #region lista */
     ul {
         padding: 1rem 0;
         
@@ -231,6 +226,16 @@ main {
             }
         }
     }
+
+    /* #endregion lista */
+
+    /* #region socials */
+
+    /* #endregion socials */
+
+    /* #region presentazione */
+
+    /* #endregion presentazione */
 }
 
 /* #endregion main */
