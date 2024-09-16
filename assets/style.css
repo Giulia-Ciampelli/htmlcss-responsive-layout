@@ -59,9 +59,11 @@
         /* #endregion socials */
 
         /* #region presentazione */
+        
         .present {
 
             .float {
+                margin: 0;
                 width: 40%;
                 float: left;
             }
