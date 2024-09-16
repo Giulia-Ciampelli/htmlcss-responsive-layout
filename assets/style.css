@@ -1,0 +1,48 @@
+/* #region media query */
+
+/* #endregion media query */
+
+/* #region common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+
+    header {
+        font-family: 'Nerko One', cursive;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner {
+    display: none;
+}
+
+/* #endregion common */
+
+/* #region debug */
+.debug {
+    border: 1px dashed black;
+}
+
+/* #endregion debug */
+
+/* #region header */
+
+/* #endregion header */
+
+/* #region main */
+
+/* #endregion main */
+
+/* #region footer */
+
+/* #endregion footer */
