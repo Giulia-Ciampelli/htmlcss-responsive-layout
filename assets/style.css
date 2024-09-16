@@ -33,7 +33,6 @@
         /* #region header */
         header {
 
-
             .desk {
                 text-align: left;
                 padding-left: 1rem;
@@ -62,14 +61,9 @@
         /* #region presentazione */
         .present {
 
-            .m-auto {
-                margin: 0;
-            }
-
             .float {
                 width: 40%;
                 float: left;
-                margin: 0;
             }
         }
 
