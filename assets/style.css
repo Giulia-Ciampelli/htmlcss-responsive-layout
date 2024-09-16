@@ -227,36 +227,9 @@ main {
     /* #region card */
     .card {
 
-        .card-top {}
-
         .flex {
             justify-content: space-between;
             align-items: center;
-        }
-
-        .card-bottom {
-
-            .col-12 {
-                padding: 1rem;
-                width: 100%;
-
-                .purple {
-                    background-color: var(--secondary-footer);
-                    color: white;
-                    padding: .2rem .4rem;
-                    border-radius: .4rem;
-                }
-
-                .orange {
-                    color: var(--title-primary);
-                    font-weight: 700;
-                }
-            }
-
-            .col-12:first-child {
-                border-bottom: 1px solid gray;
-            }
-
         }
     }
 
@@ -265,6 +238,10 @@ main {
     /* #region lista */
     ul {
         padding: 1rem 0;
+
+        h3 {
+            padding-bottom: 1rem;
+        }
 
         li {
             line-height: 1.5rem;
