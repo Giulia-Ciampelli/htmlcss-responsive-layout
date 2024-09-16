@@ -10,6 +10,14 @@
 /* #region desktop */
 @media screen and (min-width: 992px) {
 
+    header {
+
+        .desk {
+            text-align: left;
+            padding-left: 1rem;
+        }
+    }
+
     .container {
         max-width: 1440px;
         width: 90%;
@@ -40,7 +48,7 @@
 }
 
 body {
-    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 img {
@@ -83,8 +91,14 @@ img {
 
 /* #region header */
 header {
-    font-family: 'Nerko One', cursive;
+    font-family: "Nerko One", cursive;
     color: var(--title-primary);
+
+    h1 {
+        font-weight: 100;
+        text-shadow: 2px 2px 2px gray;
+        text-align: center;
+    }
 }
 
 /* #endregion header */
