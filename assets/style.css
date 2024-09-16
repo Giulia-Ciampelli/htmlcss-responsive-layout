@@ -176,10 +176,12 @@ main {
 
     p:first-child {
         color: gray;
+        padding-top: 1rem;
     }
 
     h1 {
         color: var(--font-purple);
+        padding: 1rem 0;
     }
 
     h2 {
