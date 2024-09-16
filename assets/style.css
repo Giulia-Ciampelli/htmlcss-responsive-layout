@@ -1,7 +1,9 @@
 /* #region media query */
 
 /* #region tablet */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+
+}
 
 /* #endregion tablet */
 
@@ -31,10 +33,18 @@
     --secondary-footer: #7c69a4;
     --secondary-bg-card: #f6f5f9;
     --background-main: #f6f5f3;
+    --facebook: #1a77f3;
+    --twitter: #009eff;
+    --instagram: #e276a5;
+    --pinterest-youtube: #e62223;
 }
 
 body {
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
+
+img {
+    width: 100%;
 }
 
 .container {
@@ -42,9 +52,20 @@ body {
     margin: auto
 }
 
+.container-sm {
+    width: 70%;
+    margin: auto
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-around;
 }
 
 .banner {
@@ -76,5 +97,11 @@ main {
 /* #endregion main */
 
 /* #region footer */
+footer {
+    background-color: var(--secondary-footer);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /* #endregion footer */
