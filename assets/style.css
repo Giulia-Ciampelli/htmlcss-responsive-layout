@@ -9,6 +9,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --title-primary: #f6972e;
+    --secondary-footer: #7c69a4;
+    --secondary-bg-card: #f6f5f9;
+    --background-main: #f6f5f3;
+}
+
 body {
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
 
