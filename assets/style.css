@@ -1,7 +1,34 @@
 /* #region media query */
 
-/* #region tablet */
-@media screen and (min-width: 768px) {}
+/* #region phone large */
+@media screen and (min-width: 576px) {
+
+    body {
+
+        .socials {
+            
+            #p-lrg1 {
+                padding: .35rem 1.75rem;
+            }
+                       
+            #p-lrg2 {
+                padding: .35rem 1.75rem;
+            }
+                       
+            #p-lrg3 {
+                padding: .35rem 1.75rem;
+            }
+                       
+            #p-lrg4 {
+                padding: .35rem 1.75rem;
+            }
+                       
+            #p-lrg5 {
+                padding: .35rem 1.75rem;
+            }
+        }
+    }
+}
 
 /* #endregion tablet */
 
