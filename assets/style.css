@@ -10,18 +10,25 @@
 /* #region desktop */
 @media screen and (min-width: 992px) {
 
-    header {
-
-        .desk {
-            text-align: left;
-            padding-left: 1rem;
+    body {
+        .display {
+            display: inline-block;
         }
-    }
+    
 
-    .container {
-        max-width: 1440px;
-        width: 90%;
-        margin: auto
+        header {
+
+            .desk {
+                text-align: left;
+                padding-left: 1rem;
+            }
+        }
+
+        .container {
+            max-width: 1440px;
+            width: 90%;
+            margin: auto
+        }
     }
 }
 
@@ -45,6 +52,7 @@
     --twitter: #009eff;
     --instagram: #e276a5;
     --pinterest-youtube: #e62223;
+    --font-purple: #4e3969;
 }
 
 body {
@@ -71,12 +79,16 @@ img {
     flex-direction: column;
 }
 
+.shadow {
+    box-shadow: 2px 2px 5px gray;
+}
+
 .socials {
     display: flex;
     justify-content: space-around;
 }
 
-.banner {
+.display {
     display: none;
 }
 
@@ -106,6 +118,14 @@ header {
 /* #region main */
 main {
     background-color: var(--background-main);
+
+    p {
+        color: gray;
+    }
+
+    h1 {
+        color: var(--font-purple);
+    }
 }
 
 /* #endregion main */
