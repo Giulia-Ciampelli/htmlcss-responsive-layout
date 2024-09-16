@@ -1,5 +1,22 @@
 /* #region media query */
 
+/* #region tablet */
+@media screen and (min-width: 768px) {}
+
+/* #endregion tablet */
+
+/* #region desktop */
+@media screen and (min-width: 992px) {
+
+    .container {
+        max-width: 1440px;
+        width: 90%;
+        margin: auto
+    }
+}
+
+/* #endregion desktop */
+
 /* #endregion media query */
 
 /* #region common */
@@ -18,10 +35,11 @@
 
 body {
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
 
-    header {
-        font-family: 'Nerko One', cursive;
-    }
+.container {
+    width: 90%;
+    margin: auto
 }
 
 .row {
@@ -36,17 +54,24 @@ body {
 /* #endregion common */
 
 /* #region debug */
-.debug {
+.debug * {
     border: 1px dashed black;
 }
 
 /* #endregion debug */
 
 /* #region header */
+header {
+    font-family: 'Nerko One', cursive;
+    color: var(--title-primary);
+}
 
 /* #endregion header */
 
 /* #region main */
+main {
+    background-color: var(--background-main);
+}
 
 /* #endregion main */
 
