@@ -44,6 +44,19 @@
             width: 20%;
         }
 
+        .socials {
+            padding: 1rem;
+    
+            .shadow {
+                
+                span.display {
+                    color: black;
+                    font-size: small;
+                    font-weight: 700;
+                }
+            }
+        }
+
     }
 }
 
@@ -230,6 +243,34 @@ main {
     /* #endregion lista */
 
     /* #region socials */
+    .socials {
+        padding: 1rem;
+
+        .shadow {
+            padding: .35rem .75rem;
+            border-radius: 1rem;
+
+            .fa-facebook {
+                color: var(--facebook);
+            }
+
+            .fa-twitter {
+                color: var(--twitter);
+            }
+
+            .fa-instagram {
+                color: var(--instagram);
+            }
+
+            .fa-pinterest {
+                color: var(--pinterest-youtube);
+            }
+
+            .fa-youtube {
+                color: var(--pinterest-youtube);
+            }
+        }
+    }
 
     /* #endregion socials */
 
