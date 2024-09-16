@@ -64,8 +64,8 @@
 
             .float {
                 margin: 0;
-                width: 40%;
                 float: left;
+                max-width: 30%;
             }
         }
 
