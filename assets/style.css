@@ -15,6 +15,15 @@
             display: inline-block;
         }
     
+        .card {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .card-bottom {
+                width: 40%;
+            }
+        }
 
         header {
 
@@ -29,6 +38,12 @@
             width: 90%;
             margin: auto
         }
+            
+        .float {
+            float: left;
+            width: 20%;
+        }
+
     }
 }
 
@@ -63,13 +78,20 @@ img {
     width: 100%;
 }
 
-.container {
-    width: 90%;
-    margin: auto
+ul {
+
+    li {
+        display: flex;
+        list-style: none;
+    }
 }
 
-.container-sm {
-    width: 70%;
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 90%;
     margin: auto
 }
 
@@ -81,6 +103,14 @@ img {
 
 .card {
     background-color: white;
+}
+
+.card-bottom {
+    padding: 1rem;
+}
+
+.col-12 {
+    background-color: var(--secondary-bg-card);
 }
 
 .shadow {
@@ -130,6 +160,51 @@ main {
     h1 {
         color: var(--font-purple);
     }
+
+    h2 {
+        font-weight: 500;
+    }
+
+    hr {
+        border: 1px solid var(--title-primary);
+        width: 20%;
+        margin: .5rem 0;
+    }
+
+    .card {
+
+        .card-top {
+
+        }
+
+        .flex {
+            justify-content: space-between;
+        }
+
+        .card-bottom {
+
+            .col-12 {
+                padding: 1rem;
+                width: 100%;
+
+                .purple {
+                    background-color: var(--secondary-footer);
+                    color: white;
+                    padding: .2rem .4rem;
+                    border-radius: .5rem;
+                }
+
+                .orange {
+                    color: var(--title-primary);
+                    font-weight: 700;
+                }
+            }
+
+            .col-12:first-child {
+                border-bottom: 1px solid gray;
+            }
+        }
+    }
 }
 
 /* #endregion main */
@@ -140,6 +215,11 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
+
+    a {
+        color: white;
+    }
 }
 
 /* #endregion footer */
