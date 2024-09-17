@@ -59,26 +59,7 @@
 
         /* #region socials */
         .socials {
-            
-            #p-lrg1 {
-                padding: .35rem 2.75rem;
-            }
-                       
-            #p-lrg2 {
-                padding: .35rem 2.75rem;
-            }
-                       
-            #p-lrg3 {
-                padding: .35rem 2.75rem;
-            }
-                       
-            #p-lrg4 {
-                padding: .35rem 2.75rem;
-            }
-                       
-            #p-lrg5 {
-                padding: .35rem 2.75rem;
-            }
+            padding: .35rem 2.75rem;
         }
 
         /* endregion socials */
@@ -143,6 +124,26 @@
             padding: 1rem;
 
             .shadow {
+                
+                #p-lrg1 {
+                    padding: .35rem 0.75rem;
+                }
+                           
+                #p-lrg2 {
+                    padding: .35rem 0.75rem;
+                }
+                           
+                #p-lrg3 {
+                    padding: .35rem 0.75rem;
+                }
+                           
+                #p-lrg4 {
+                    padding: .35rem 0.75rem;
+                }
+                           
+                #p-lrg5 {
+                    padding: .35rem 0.75rem;
+                }
 
                 span.display {
                     color: black;
